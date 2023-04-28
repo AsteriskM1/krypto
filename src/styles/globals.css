@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000125;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  body {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+},
+
+.gradient-01 {
+  background: linear-gradient(to right, #00bfff, #00ff00);
+  filter: blur(152px);    
+}
+
+.gradient-02 {
+  background: rgba(161, 213, 214, 0.7);
+  filter: blur(152px);
+}
